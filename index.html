@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <nav class="navbar navbar-expand-lg pt-2 bg-body-tertiary">
+    <div class="container px-5">
+        <div>
+            <a class="navbar-brand logo fs-16" href="#">
+              <img src="./Images/logo.png" alt="Logo"  height="40" class="d-inline-block align-text-center ">
+              Navi
+            </a>
+          </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link disable" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+          </li>
+        </ul>
+        
+        <a href="#contact"><button class="btn btn-outline-dark" type="submit">Contact</button></a>
+      </div>
+    </div>
+  </nav>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+
+    <!-- Hero section -->
+    <section class="bg-body-tertiary mt-0 pt-0">
+        <div class="container px-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="./Images/me3.png" class="d-block mx-lg-auto img-fluid" alt="Navindu Rathnayaka"  height="600" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1">Hello,</h1> <h2 class="fw-bold text-body-emphasis lh-1 mb-3"> I’m Navindu Rathnayaka</h2>
+                  <p class="lead">I'm a Software Engineering Undergraduate in Sabaragamuwa University of Sri Lanka. I'm interested in Web development, Flutter development, and Game development. Also I am good at UI/UX design.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start pb-3">
+                    <a href="https://navindud.github.io/MyCV/"><button type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2" >See More</button></a>
+                  </div>
+                </div>
+              </div>
+    </section>
+
+    <!-- Technologies -->
+    <section>
+        <div class="container px-5 py-5">
+            <h2 class="py-2 border-bottom">Tools & Technologies</h2>
+            <div class="row">
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img
+                  src="./Images/tools/html.png"
+                  alt="html"
+                  height="100"
+                />
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img src="./Images/tools/css.png" alt="css" height="100" />
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img
+                  src="./Images/tools/bootstrap.png"
+                  alt="bootstrap"
+                  height="100"
+                />
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img src="./Images/tools/figma.png" alt="figma" height="100" />
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img src="./Images/tools/xd.png" alt="xd" height="100" />
+              </div>
+              <div class="col-lg-2 col-sm-4 col-6 py-3">
+                <img src="./Images/tools/flutter.png" alt="flutter" height="100" />
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container py-5 px-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Projects</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, black), url('./Images/Bilinda_redesign.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 display-6 lh-1 fw-bold">Bilida Project</h3><h2>Redesign</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small>Child Healthcare Record Book</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, black), url('./Images/WedEase.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">WedEase Project</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small>Wedding Planning Application</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, BLACK), url('./Images/ecosense.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">EcoSense Project</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small111>Power Saving Application</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, BLACK), url('./Images/Rewardify.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Rewardify Project</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small>Employee Engagement Application</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, black), url('./Images/Sentry.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sentry Project</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small>Human-Elephant Confict and Donation Web</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(to bottom, transparent, black), url('./Images/GivingHands.png'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">GivingHands Project</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="./Images/logo.png" alt="logo" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      
+                      <li class="d-flex align-items-center">
+                        <small>Donation Web</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <!-- about me -->
+    <section id="aboutMe" class="bg-body-tertiary">
+        <div class="container px-5 pt-5">
+            <h2 class="pb-2 border-bottom">About Me</h2>
+            <div class="row flex-lg-row align-items-center g-5 pt-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="./Images/me2.png" class="d-block mx-lg-auto img-fluid" alt="Navindu Rathnayaka"  height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 col-10 pb-3">
+                  <p class="lead">I'm Navindu Rathnayaka a Software Engineering Undergraduate who is passionate about creating innovative and user-friendly applications. I've experience in Web development, Flutter development, and Game development, using various technologies and tools. I'm also good at UI/UX design, and enjoys making my projects visually appealing and intuitive. I'm always eager to learn new things and improve my skills. I'm currently studying at Sabaragamuwa University of Sri Lanka, where pursuing my degree in Software Engineering.</p>
+                </div>
+              </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container px-5 py-5">
+            <h2 class="pb-2 border-bottom">Contact</h2>
+
+            <div class="col-md-10 me-auto col-lg-5">
+                <form class="p-4 p-md-5">
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="John Doe" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputMessage" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="5" placeholder="Type your message here" required></textarea>
+                    </div>
+                    <button class="btn btn-dark btn-lg px-4 me-md-2" type="submit">Submit</button>
+                </form>
+            </div>
+            
+        </div>
+      </section>
+  </body>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 border-top bg-body-tertiary">
+    <div class="container py-5 px-5">
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-center mb-3 mb-md-0">
+                <a href="/" class="me-2 text-body-secondary text-decoration-none lh-1">
+                    <img src="./Images/logo.png" alt="logo" height="24" class="bi">
+                </a>
+                <span class="text-body-secondary">© 2023 Navi</span>
+            </div>
+
+            <ul class="nav col-md-8 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/NavinduD/"><img src="./Images/social/github.svg" alt="github" height="30"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/navindu.rathnayaka.161?mibextid=LQQJ4d"><img src="./Images/social/facebook.svg" alt="facebook" height="30"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/_navindu_rathnayaka_/"><img src="./Images/social/instagram.svg" alt="instagram" height="30"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/navindu-rathnayaka-4b0b60218/"><img src="./Images/social/linkedin.svg" alt="linkedin" height="30"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>
